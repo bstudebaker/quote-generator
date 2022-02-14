@@ -40,6 +40,7 @@ function newQuote() {
         quoteText.classList.remove('long-quote');
     }
     quoteText.textContent = quote.text;
+    complete();
 }
 
 // Get the quotes from the API
